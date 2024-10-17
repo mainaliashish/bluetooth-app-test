@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLE Scale & Blood Pressure Reader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #status {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BLE Scale & Blood Pressure Reader</h1>
+
+        <button id="scanButton">Scan for Devices</button>
+
+        <button id="readDataButton">Read Data</button>
+
+        <div id="status">Status: Waiting...</div>
+
+        <div id="data"></div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

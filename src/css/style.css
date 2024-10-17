@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #42b983;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#deviceList {
+  list-style: none;
+  padding: 0;
+}
+
+#deviceList li {
+  margin: 10px 0;
+}
